@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./images/background2.jpg);
+    background-attachment: fixed;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+footer a{
+text-decoration: none;
+color: #FFF;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #FFF;
+}
+
+footer a:focus{
+    text-decoration: underline;
+    color: #FFF;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.header p a{
+    background-color: rgb(121, 121, 207);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 100%;
+    text-decoration: none;
+
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+    padding: 10px;
+}
+
+.nav-bar a:hover{
+    background-color: rgb(121, 121, 207);
+    color: blanchedalmond;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-bar a:focus{
+    background-color: rgb(121, 121, 207);
+    color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
+}
+.home-quot{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 60px;
+
+}
+.home-quot h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.about-div{
+    padding-top:20px ;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+.about-div h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.person-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 190px;
+    width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* font-family: 'Italianno', cursive;
+font-family: 'Montserrat', sans-serif; */
