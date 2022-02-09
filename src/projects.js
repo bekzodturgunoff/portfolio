@@ -1,63 +1,63 @@
-const projectName = [
+const projectNames = [
   {
     name: "Project",
     description: "Hola welcome to projects",
     website: "https://www.google.com",
     projectImg: "./images/project.jpg",
-    websiteName: "Hello world",
+    websiteName: "Project link",
   },
   {
     name: "Project",
     description: "Hola welcome to projects",
     website: "https://www.google.com",
     projectImg: "./images/project.jpg",
-    websiteName: "Hello world",
+    websiteName: "Project link",
   },
   {
     name: "Project",
     description: "Hola welcome to projects",
     website: "https://www.google.com",
     projectImg: "./images/project.jpg",
-    websiteName: "Hello world",
+    websiteName: "Project link",
   },
   {
     name: "Project",
     description: "Hola welcome to projects",
     website: "https://www.google.com",
     projectImg: "./images/project.jpg",
-    websiteName: "Hello world",
+    websiteName: "Project link",
   },
   {
     name: "Project",
     description: "Hola welcome to projects",
     website: "https://www.google.com",
     projectImg: "./images/project.jpg",
-    websiteName: "Hello world",
+    websiteName: "Project link",
   },
   {
     name: "Project",
     description: "Hola welcome to projects",
     website: "https://www.google.com",
     projectImg: "./images/project.jpg",
-    websiteName: "Hello world",
+    websiteName: "Project link",
   },
   {
     name: "Project",
     description: "Hola welcome to projects",
     website: "https://www.google.com",
     projectImg: "./images/project.jpg",
-    websiteName: "Hello world",
+    websiteName: "Project link",
   },
 ];
 
 export function renderProjects(where) {
   // projectName.forEach((pro) => {
   const projectContainer = document.createElement("div");
-  for (let i = 0; i < projectName.length / 2; i++) {
+  for (let i = 0; i < projectNames.length / 2; i++) {
     const group = document.createElement("div");
     group.classList.add("project-group");
-    const childOne = createProject(projectName[i]);
-    const childTwo = createProject(projectName[i + 1]);
+    const childOne = createProject(projectNames[i]);
+    const childTwo = createProject(projectNames[i + 1]);
 
     group.append(childOne, childTwo);
     projectContainer.append(group);
@@ -68,16 +68,18 @@ export function renderProjects(where) {
 
 function createProject(pro) {
   const project = document.createElement("div");
-  const projectName = document.createElement("h2");
+  const projectNames = document.createElement("h2");
   const description = document.createElement("p");
-  const links = document.createElement("a");
+  const link = document.createElement("a");
   const projectImg = document.createElement("img");
   project.classList.add("project-items");
-  projectName.textContent = pro.name;
+
+  projectNames.textContent = pro.name;
   description.textContent = pro.description;
-  links.setAttribute("href", pro.website);
-  links.textContent = pro.websiteName;
+  link.setAttribute("href", pro.website);
+  link.setAttribute("data-text", "Click here");
+  link.textContent = pro.websiteName;
   projectImg.src = pro.projectImg;
-  project.append(projectImg, projectName, description, links);
+  project.append(projectImg, projectNames, description, link);
   return project;
 }
