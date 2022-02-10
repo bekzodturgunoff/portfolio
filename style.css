@@ -150,15 +150,17 @@ footer {
   transition: transform 0.4s ease;
 }
 .project-items p {
-  font-family: "Italianno", cursive;
-  font-size: 30px;
+  font-size: 20px;
+  word-wrap: break-word;
+  width: 280px;
+  text-align: center;
 }
 .project-items a {
   position: relative;
   display: inline-block;
   overflow: hidden;
   float: left;
-  padding: 0 4em;
+  padding: 0 3em;
   height: 3.5em;
   font: 300 1em/3.5em "Open Sans", sans-serif;
   text-decoration: none;

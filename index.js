@@ -6,7 +6,7 @@ const root = document.getElementById("root")
 const links =document.querySelectorAll(".nav-bar")
 
 let routes = {
-    "/": renderHome,
+    "/portfolio": renderHome,
     "/projects": renderProjects,
     "/contact": renderContacts,
 }

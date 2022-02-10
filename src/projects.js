@@ -1,16 +1,16 @@
 const projectNames = [
   {
-    name: "Project",
-    description: "Hola welcome to projects",
-    website: "https://www.google.com",
-    projectImg: "./images/project.jpg",
+    name: "Calculator",
+    description: "This project was build based on The Odin Projects ",
+    website: "https://bekzodturgunoff.github.io/calculator/",
+    projectImg: "./images/calculator.png",
     websiteName: "Project link",
   },
   {
-    name: "Project",
+    name: "Restaurant Page",
     description: "Hola welcome to projects",
-    website: "https://www.google.com",
-    projectImg: "./images/project.jpg",
+    website: "https://bekzodturgunoff.github.io/restaurant-page/",
+    projectImg: "./images/restaurant.png",
     websiteName: "Project link",
   },
   {
