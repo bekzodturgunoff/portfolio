@@ -1,65 +1,80 @@
 const projectNames = [
-  {
-    name: "Calculator",
-    description: "The Odin Projects ",
-    website: "https://bekzodturgunoff.github.io/calculator/",
-    projectImg: "./images/calculator.png",
-    websiteName: "Project link",
-  },
-  {
-    name: "Restaurant Page",
-    description: "Hola welcome to projects",
-    website: "https://bekzodturgunoff.github.io/restaurant-page/",
-    projectImg: "./images/restaurant.png",
-    websiteName: "Project link",
-  },
-  {
-    name: "Project",
-    description: "Hola welcome to projects",
-    website: "https://www.google.com",
-    projectImg: "./images/project.jpg",
-    websiteName: "Project link",
-  },
-  {
-    name: "Project",
-    description: "Hola welcome to projects",
-    website: "https://www.google.com",
-    projectImg: "./images/project.jpg",
-    websiteName: "Project link",
-  },
-  {
-    name: "Project",
-    description: "Hola welcome to projects",
-    website: "https://www.google.com",
-    projectImg: "./images/project.jpg",
-    websiteName: "Project link",
-  },
-  {
-    name: "Project",
-    description: "Hola welcome to projects",
-    website: "https://www.google.com",
-    projectImg: "./images/project.jpg",
-    websiteName: "Project link",
-  },
-  {
-    name: "Project",
-    description: "Hola welcome to projects",
-    website: "https://www.google.com",
-    projectImg: "./images/project.jpg",
-    websiteName: "Project link",
-  },
+  [
+    {
+      name: "Restaurant Page",
+      description: "Inspired by Odin",
+      website: "https://bekzodturgunoff.github.io/restaurant-page/",
+      projectImg: "./images/projectImg/restaurant.png",
+      websiteName: "Project link",
+    },
+    {
+      name: "Portfolio",
+      description: "My awesome website",
+      website: "https://bekzodturgunoff.github.io/portfolio/",
+      projectImg: "./images/projectImg/portfolio.png",
+      websiteName: "Project link",
+    },
+  ],
+  [
+    {
+      name: "Calculator",
+      description: "Beautifully designed",
+      website: "https://bekzodturgunoff.github.io/calculator/",
+      projectImg: "./images/projectImg/calculator.png",
+      websiteName: "Project link",
+    },
+
+    {
+      name: "Todoooo",
+      description: "Outstanding design",
+      website: "https://bekzodturgunoff.github.io/todo/",
+      projectImg: "./images/projectImg/todo.png",
+      websiteName: "Project link",
+    },
+  ],
+  [
+    {
+      name: "Tic-tac-toe",
+      description: "Very simple game",
+      website: "https://www.google.com",
+      projectImg: "./images/projectImg/tic-tac-toe.png",
+      websiteName: "Project link",
+    },
+    {
+      name: "Piano",
+      description: "Created for fun",
+      website: "https://bekzodturgunoff.github.io/piano/",
+      projectImg: "./images/projectImg/piano.png",
+      websiteName: "Project link",
+    },
+  ],
+  [
+    {
+      name: "Sketch App",
+      description: "Odin project DOM",
+      website: "https://bekzodturgunoff.github.io/odin-recipes/",
+      projectImg: "./images/projectImg/sketch.png",
+      websiteName: "Project link",
+    },
+  ],
 ];
 
 export function renderProjects(where) {
   // projectName.forEach((pro) => {
   const projectContainer = document.createElement("div");
-  for (let i = 0; i < projectNames.length / 2; i++) {
+  for (let i = 0; i < projectNames.length; i++) {
     const group = document.createElement("div");
     group.classList.add("project-group");
-    const childOne = createProject(projectNames[i]);
-    const childTwo = createProject(projectNames[i + 1]);
 
-    group.append(childOne, childTwo);
+    const childOne = createProject(projectNames[i][0]);
+
+    group.append(childOne);
+
+    if (projectNames[i][1]) {
+      const childTwo = createProject(projectNames[i][1]);
+      group.append(childTwo);
+    }
+
     projectContainer.append(group);
   }
   projectContainer.classList.add("project-container");
