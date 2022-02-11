@@ -60,7 +60,7 @@ const projectNames = [
       name: "Check out my GitHub",
       description: "",
       website: "https://github.com/bekzodturgunoff",
-      projectImg: "./images/projectImg/project.png",
+      projectImg: "./images/projectImg/project.jpg",
       websiteName: "Project link",
     },
   ],
