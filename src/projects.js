@@ -56,6 +56,13 @@ const projectNames = [
       projectImg: "./images/projectImg/sketch.png",
       websiteName: "Project link",
     },
+    {
+      name: "Check out my GitHub",
+      description: "",
+      website: "https://github.com/bekzodturgunoff",
+      projectImg: "./images/projectImg/project.png",
+      websiteName: "Project link",
+    },
   ],
 ];
 
