@@ -1,7 +1,7 @@
 const projectNames = [
   {
     name: "Calculator",
-    description: "This project was build based on The Odin Projects ",
+    description: "The Odin Projects ",
     website: "https://bekzodturgunoff.github.io/calculator/",
     projectImg: "./images/calculator.png",
     websiteName: "Project link",
