@@ -36,7 +36,7 @@ const projectNames = [
     {
       name: "Tic-tac-toe",
       description: "Very simple game",
-      website: "https://www.google.com",
+      website: "https://bekzodturgunoff.github.io/tic-tac-toe-odin/",
       projectImg: "./images/projectImg/tic-tac-toe.png",
       websiteName: "Project link",
     },
