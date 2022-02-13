@@ -337,6 +337,39 @@ footer {
     border-radius: 10px;
     padding: 10px;
   }
+
+  .project-items a {
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    padding: 0 2em;
+    height: 3em;
+    font: 250 1em/2.8em "Open Sans", sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+    letter-spacing: 0.08em;
+    color: #fff;
+    background: rgb(121, 121, 207);
+    border: solid 1px #fff;
+    -moz-transition: ease 0.35s all;
+    -o-transition: ease 0.35s all;
+    -webkit-transition: ease 0.35s all;
+    transition: ease 0.35s all;
+    border-radius: 10px;
+  }
+
+  .project-items a:hover {
+    background: rgb(102, 102, 214);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
+    line-height: 9em;
+    border-radius: 10px;
+  }
+  .project-items a::before {
+    content: attr(data-text);
+    color: #deeff5;
+    position: absolute;
+    top: -3.2em;
+  }
 }
 
 @media (max-width: 347px) {
