@@ -7,7 +7,7 @@ export function renderHome(where) {
   where.append(homeQuot);
   /////////////////////////////////////////
   let aboutArray = [
-    `Hey, thank you for visiting the site. My name is Bekzod, I have been learning web programming since 2021. It was hard for me to learn web programming, but I never stopped. Then I fell in love with web programming. Even now I struggle, but I don’t stop learning. By the way, this site is made entirely of JavaScript programming language. If you think I deserve a job, give me a call`,
+    `Hey, thank you for visiting the site. My name is Bekzod, I have been learning web programming since 2021. It was hard for me to learn web programming, but I never stopped. Then I fell in love with web programming. Even now I struggle, but I don’t stop learning. By the way, this site is made entirely of JavaScript programming language. Check out my GitHub account`,
   ];
 
   let aboutDiv = document.createElement("div");
