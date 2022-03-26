@@ -14,6 +14,8 @@ const projectNames = [
       projectImg: "./images/projectImg/sunnyside.jpg",
       websiteName: "Project link",
     },
+  ],
+  [
     {
       name: "Farfill",
       description: "Delivery website",
@@ -44,6 +46,8 @@ const projectNames = [
       projectImg: "./images/projectImg/portfolio.png",
       websiteName: "Project link",
     },
+  ],
+  [
     {
       name: "Calculator",
       description: "Beautifully designed",
