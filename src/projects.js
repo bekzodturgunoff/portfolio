@@ -22,6 +22,15 @@ const projectNames = [
       websiteName: "Project link",
     },
     {
+      name: "Check out my GitHub",
+      description: "",
+      website: "https://github.com/bekzodturgunoff",
+      projectImg: "./images/projectImg/project.jpg",
+      websiteName: "Project link",
+    },
+  ],
+  [
+    {
       name: "Restaurant Page",
       description: "Inspired by Odin",
       website: "https://bekzodturgunoff.github.io/restaurant-page/",
@@ -35,8 +44,6 @@ const projectNames = [
       projectImg: "./images/projectImg/portfolio.png",
       websiteName: "Project link",
     },
-  ],
-  [
     {
       name: "Calculator",
       description: "Beautifully designed",
