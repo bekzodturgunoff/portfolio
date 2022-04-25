@@ -1,6 +1,13 @@
 const projectNames = [
   [
     {
+      name: "Quizzical",
+      description: "Interesting questions",
+      website: "https://cheerful-cactus.netlify.app/",
+      projectImg: "./images/projectImg/project.jpg",
+      websiteName: "Project link",
+    },
+    {
       name: "LoopStudio",
       description: "VR website",
       website: "https://loopstudio-react.netlify.app/",
