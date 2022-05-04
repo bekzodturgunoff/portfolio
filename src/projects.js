@@ -1,6 +1,39 @@
 const projectNames = [
   [
     {
+      name: "Review",
+      description: "Review React",
+      website: "https://papaya-cocada-52bf6a.netlify.app/",
+      projectImg: "./images/projectImg/review.png",
+      websiteName: "Project link",
+    },
+    {
+      name: "Tours",
+      description: "Tour Places React",
+      website: "https://elegant-conkies-f280c6.netlify.app/",
+      projectImg: "./images/projectImg/tour.png",
+      websiteName: "Project link",
+    },
+  ],
+  [
+    {
+      name: "Birthday Counter",
+      description: "Counter React",
+      website: "https://beautiful-queijadas-ce9c36.netlify.app/",
+      projectImg: "./images/projectImg/project.jpg",
+      websiteName: "Project link",
+    },
+    {
+      name: "Login",
+      description: "Questions React",
+      website: "https://monumental-puffpuff-3d5225.netlify.app/",
+      projectImg: "./images/projectImg/login.png",
+      websiteName: "Project link",
+    },
+  ],
+
+  [
+    {
       name: "Quizzical",
       description: "Interesting questions",
       website: "https://cheerful-cactus.netlify.app/",
