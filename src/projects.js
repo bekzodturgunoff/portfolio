@@ -64,10 +64,10 @@ const projectNames = [
       websiteName: "Project link",
     },
     {
-      name: "Check out my GitHub",
-      description: "",
+      name: "Menu",
+      description: "Meals",
       website: "https://github.com/bekzodturgunoff",
-      projectImg: "./images/projectImg/project.jpg",
+      projectImg: "./images/projectImg/menu.png",
       websiteName: "Project link",
     },
   ],
