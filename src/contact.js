@@ -11,7 +11,7 @@ export function renderContacts(where){
     personPicture.src = "./images/picture-me.jpg"
     contactMe.textContent = "Contact Me"
     emailMe.textContent = "Email: bekzodturgunoff@gmail.com"
-    phoneMe.textContent = "Phone: +998 (93) 195-55-51"
+    phoneMe.textContent = "Phone: (93) 195-55-51 / (91) 051-11-10"
 
     personPicture.classList.add("person-img")
     contactDiv.classList.add("contact-div")

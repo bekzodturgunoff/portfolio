@@ -39,6 +39,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.726);
   padding-left: 30%;
   padding-right: 30%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header p a {
@@ -133,6 +134,7 @@ footer {
   color: #fff;
   padding: 20px;
   border-radius: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .project-items {

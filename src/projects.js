@@ -66,7 +66,7 @@ const projectNames = [
     {
       name: "Menu",
       description: "Meals",
-      website: "https://github.com/bekzodturgunoff",
+      website: "https://stellular-rolypoly-311994.netlify.app/",
       projectImg: "./images/projectImg/menu.png",
       websiteName: "Project link",
     },
