@@ -123,21 +123,16 @@ const projectNames = [
 ];
 
 export function renderProjects(where) {
-  // projectName.forEach((pro) => {
   const projectContainer = document.createElement("div");
   for (let i = 0; i < projectNames.length; i++) {
     const group = document.createElement("div");
     group.classList.add("project-group");
-
     const childOne = createProject(projectNames[i][0]);
-
     group.append(childOne);
-
     if (projectNames[i][1]) {
       const childTwo = createProject(projectNames[i][1]);
       group.append(childTwo);
     }
-
     projectContainer.append(group);
   }
   projectContainer.classList.add("project-container");
@@ -151,7 +146,6 @@ function createProject(pro) {
   const link = document.createElement("a");
   const projectImg = document.createElement("img");
   project.classList.add("project-items");
-
   projectNames.textContent = pro.name;
   description.textContent = pro.description;
   link.setAttribute("href", pro.website);
