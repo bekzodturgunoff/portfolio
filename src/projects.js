@@ -57,22 +57,6 @@ const projectNames = [
   ],
   [
     {
-      name: "Farfill",
-      description: "Delivery website",
-      website: "https://bekzodturgunoff.github.io/Farfill/",
-      projectImg: "./images/projectImg/farfill.png",
-      websiteName: "Project link",
-    },
-    {
-      name: "Menu",
-      description: "Meals",
-      website: "https://stellular-rolypoly-311994.netlify.app/",
-      projectImg: "./images/projectImg/menu.png",
-      websiteName: "Project link",
-    },
-  ],
-  [
-    {
       name: "Restaurant Page",
       description: "Inspired by Odin",
       website: "https://bekzodturgunoff.github.io/restaurant-page/",
