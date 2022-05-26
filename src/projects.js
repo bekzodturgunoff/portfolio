@@ -14,6 +14,23 @@ const projectNames = [
       projectImg: "./images/projectImg/menu.png",
       websiteName: "Project link",
     },
+    
+  ],
+  [
+    {
+      name: "SunnySide",
+      description: "Creator website",
+      website: "https://sunnyside-react.netlify.app/",
+      projectImg: "./images/projectImg/sunnyside.jpg",
+      websiteName: "Project link",
+    },
+    {
+      name: "Sotildi",
+      description: "E-commerce",
+      website: "https://bekzodturgunoff.github.io/sotildi_project/",
+      projectImg: "./images/projectImg/sotildi.png",
+      websiteName: "Project link",
+    },
   ],
   [
     {
@@ -45,13 +62,6 @@ const projectNames = [
       description: "VR website",
       website: "https://loopstudio-react.netlify.app/",
       projectImg: "./images/projectImg/loopstudio.jpg",
-      websiteName: "Project link",
-    },
-    {
-      name: "SunnySide",
-      description: "Creator website",
-      website: "https://sunnyside-react.netlify.app/",
-      projectImg: "./images/projectImg/sunnyside.jpg",
       websiteName: "Project link",
     },
   ],
