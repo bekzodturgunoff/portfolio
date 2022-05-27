@@ -53,7 +53,7 @@ const projectNames = [
     {
       name: "Quizzical",
       description: "Interesting questions",
-      website: "https://cheerful-cactus.netlify.app/",
+      website: "https://quizical-react.netlify.app/",
       projectImg: "./images/projectImg/project.jpg",
       websiteName: "Project link",
     },
